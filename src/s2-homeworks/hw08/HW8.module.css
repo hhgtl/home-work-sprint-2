@@ -5,6 +5,16 @@
 }
 
 .users {
+    max-width: 400px;
+    width: 100%;
+    border-spacing: 0;
+    tbody {
+        tr {
+            td {
+                border-bottom: 2px solid #c3c3c3;
+            }
+        }
+    }
 }
 
 .buttonsContainer {
@@ -14,6 +24,8 @@
 }
 
 .thead {
+
+    background-color: #c3c3c3;
 }
 
 .nameCol {

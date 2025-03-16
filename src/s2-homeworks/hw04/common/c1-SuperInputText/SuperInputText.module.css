@@ -1,20 +1,30 @@
 .input:focus {
+
 }
 
 .input {
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse
 }
 
 .superInput {
 }
 
 .errorInput {
+    border: red 2px solid;
 }
 
 .errorInput:focus {
+    outline: red 2px solid;
+    border: none;
 }
 
 .error {
+    color: red;
 }
